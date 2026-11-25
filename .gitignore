@@ -1,0 +1,45 @@
+# Unreal Engine generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+.idea/
+
+# Packaged builds and daily backups
+Packaged/
+Backups/
+
+# Visual Studio and Rider files
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Blender backup files and Python caches
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Raw Rodin downloads (about 60 MB each); the prepared files in Art/Characters are kept instead
+Art/Characters/Source/
+# OBJ exports for Mixamo, rebuilt by Tools/export_obj.py
+Art/Characters/OBJ/
+*.blend1
+# Blender writes these next to FBX exports with embedded textures
+*.fbm/
+
+# Monotype Garamond (copied from Windows) cannot be redistributed. Kept locally only.
+Art/Fonts/Garamond*.ttf
+Content/Vigil/Fonts/Garamond*.uasset
